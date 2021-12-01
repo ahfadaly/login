@@ -9,7 +9,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-image: radial-gradient(ellipse closest-corner at center, #ffffff, #9fbed1 100%);
-  /* background-image: radial-gradient(ellipse closest-corner at center, #e9f0f5 0%, #96b7cb 100%); */
+  font-family: 'Font Awesome 5 Free';
   
   
 }
@@ -53,6 +53,13 @@ code {
 }
 .singin .login-form input{
   padding: 15px;
+ 
+}
+.singin .login-form input::placeholder{
+  color: rgb(160, 155, 155);
+}
+.singin .login-form .ops{
+  opacity: 0.8;
 }
 .singin .login-form .form-check label{
 user-select: none;
