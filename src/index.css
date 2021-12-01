@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: radial-gradient(ellipse closest-corner at center, #ffffff, #9fbed1 100%);
+  /* background-image: radial-gradient(ellipse closest-corner at center, #e9f0f5 0%, #96b7cb 100%); */
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ======================================== */
+
+.singin .cover{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.css-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  user-select: none;
+  color: #fff;
+  margin: 8px;
+  background-color: rgb(16, 185, 129);
+  margin: auto;
+}
+.css-login svg{
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  font-size: 1.5rem;
+}
+.singin .login-form input{
+  padding: 15px;
+}
+.singin .login-form .form-check label{
+user-select: none;
+}
+.singin .login-form .form-check input{
+  padding: 0 ;
+}
+.singin .login-form .bg-green{
+  background: rgb(16, 185, 129) !important;
+
+}
